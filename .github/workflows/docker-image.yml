@@ -18,11 +18,11 @@ jobs:
         id: buildAndPushImage
         uses: risfeng/docker-image-build-push-action@v1.0
         with:
-          registry_url: 'registry.us-east-1.aliyuncs.com'
-          namespaces: 'adotcode'
-          repository_name: 'adc.ms.eureka.usa'
-          user_name: ${{ secrets.ALIYUN_IMAGES_HUB_USER_NAME }}
-          password: ${{ secrets.ALIYUN_IMAGES_HUB_TOKEN }}
+          registry_url: 'weiming-swimming-docker.pkg.coding.net'
+          namespaces: 'zhibo-brusherzhibo-brusher/screenshot-to-code'
+          repository_name: 'weiming-swimming-docker.pkg.coding.net'
+          user_name: 'ptlwwl5h79i5'
+          password: '7821a7a44c18db852c57025846d28e4fe42a50fb'
           image_version: 'v1.0'
           docker_file: '.'
       - name: Get pre step result output image_pull_url
