@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - dev  # 或者你希望触发工作流的分支
+  workflow_dispatch:  # 添加这行来启用手动触发
 
 jobs:
   build-and-push:
