@@ -20,7 +20,7 @@ jobs:
         with:
           registry_url: 'weiming-swimming-docker.pkg.coding.net'
           namespaces: 'zhibo-brusherzhibo-brusher/screenshot-to-code'
-          repository_name: 'weiming-swimming-docker.pkg.coding.net'
+          repository_name: 'weiming-swimming-docker.pkg.coding.net/zhibo-brusherzhibo-brusher/screenshot-to-code'
           user_name: 'ptlwwl5h79i5'
           password: '7821a7a44c18db852c57025846d28e4fe42a50fb'
           image_version: 'v1.0'
