@@ -29,6 +29,6 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: weiming-swimming-docker.pkg.coding.net/zhibo-brusherzhibo-brusher/screenshot-to-code/screenshot-to-code:v1.0.0
+        tags: weiming-swimming-docker.pkg.coding.net/zhibo-brusherzhibo-brusher/screenshot-to-code/screenshot-to-code:v$(date +%s)
 
 
