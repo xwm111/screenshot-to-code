@@ -9,6 +9,7 @@ export enum GeneratedCodeConfig {
   REACT_TAILWIND = "react_tailwind",
   BOOTSTRAP = "bootstrap",
   IONIC_TAILWIND = "ionic_tailwind",
+  SVG = "svg",
 }
 
 export interface Settings {
@@ -28,3 +29,13 @@ export enum AppState {
   CODING = "CODING",
   CODE_READY = "CODE_READY",
 }
+
+export interface CodeGenerationParams {
+  generationType: "create" | "update";
+  image: string;
+  resultImage?: string;
+  history?: string[];
+  isImportedFromCode?: boolean;
+}
+
+export type FullGenerationSettings = CodeGenerationParams & Settings;
